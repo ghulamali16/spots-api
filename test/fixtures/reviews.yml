@@ -1,11 +1,10 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# test/fixtures/reviews.yml
+review_one:
+  content: Review for Spot One
+  rating: 4
+  spot: spot_one
 
-one:
-  content: MyText
-  rating: 1
-  spot: one
-
-two:
-  content: MyText
-  rating: 1
-  spot: two
+review_two:
+  content: Review for Spot Two
+  rating: 5
+  spot: spot_two

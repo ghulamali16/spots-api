@@ -1,4 +1,4 @@
-class ReviewsController < ApplicationController
+class Api::V1::ReviewsController < ApplicationController
   before_action :set_spot
   before_action :set_review, only: [:show, :update, :destroy]
 
@@ -49,6 +49,6 @@ class ReviewsController < ApplicationController
   end
 
   def review_params
-    params.require(:review).permit(:title, :description, :rating)
+    params.require(:review).permit(:content, :rating)
   end
 end
