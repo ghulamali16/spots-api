@@ -3,7 +3,7 @@ class Api::V1::SpotsController < ApplicationController
   before_action :set_spot, only: [:show, :update, :destroy]
 
   def index
-    @spots = Spot.order(price: :asc)
+    @spots = Spot.order(price: (params[:sort] == 'desc' ? :desc : :asc))
     render json: @spots
   end
 
