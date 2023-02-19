@@ -1,11 +1,11 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# test/fixtures/spots.yml
+spot_one:
+  title: Spot One
+  description: Description for Spot One
+  price: 10.0
 
-one:
-  title: MyString
-  description: MyText
-  price: 1.5
+spot_two:
+  title: Spot Two
+  description: Description for Spot Two
+  price: 20.0
 
-two:
-  title: MyString
-  description: MyText
-  price: 1.5
