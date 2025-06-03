@@ -119,6 +119,7 @@ Ensure the following environment variables are set in production:
 - `RAILS_ENV=production`
 - `SECRET_KEY_BASE` - Rails secret key
 
+
 ### Production Setup
 1. Precompile assets (if any): `rails assets:precompile`
 2. Run database migrations: `rails db:migrate`
